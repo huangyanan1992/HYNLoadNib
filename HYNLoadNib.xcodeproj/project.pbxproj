@@ -125,10 +125,10 @@
 			children = (
 				9AAEE8A81D62E58600D55A5A /* UIView+HynLoadNib.h */,
 				9AAEE8A91D62E58600D55A5A /* UIView+HynLoadNib.m */,
-				9AAEE8AB1D62E61400D55A5A /* NSObject+HynClassName.h */,
-				9AAEE8AC1D62E61400D55A5A /* NSObject+HynClassName.m */,
 				9AAEE8B31D62E84B00D55A5A /* UIViewController+HynLoadNib.h */,
 				9AAEE8B41D62E84B00D55A5A /* UIViewController+HynLoadNib.m */,
+				9AAEE8AB1D62E61400D55A5A /* NSObject+HynClassName.h */,
+				9AAEE8AC1D62E61400D55A5A /* NSObject+HynClassName.m */,
 			);
 			path = loadNib;
 			sourceTree = "<group>";

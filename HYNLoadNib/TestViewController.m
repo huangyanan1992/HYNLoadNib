@@ -15,7 +15,7 @@
 @implementation TestViewController
 
 + (TestViewController *)testVC {
-    return [[UIStoryboard storyboardWithName:@"Main" bundle:nil] instantiateViewControllerWithIdentifier:[self className]];
+    return [TestViewController hyn_loadViewControllerFromStoryBoardWithSBName:@"Main"];
 }
 
 - (void)viewDidLoad {
