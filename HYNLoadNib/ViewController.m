@@ -7,6 +7,9 @@
 //
 
 #import "ViewController.h"
+#import "TestTableViewController.h"
+#import "TestView.h"
+#import "TestViewController.h"
 
 @interface ViewController ()
 
@@ -16,12 +19,23 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    self.title = [self className];
+    TestView *view = [TestView testView];
+    [self.view addSubview:view];
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+
+- (IBAction)btnAction:(UIButton *)sender {
+    
+    TestTableViewController *test = [TestTableViewController testVC];
+    [self.navigationController pushViewController:test animated:YES];
+    
 }
+
+- (IBAction)sbAction:(UIButton *)sender {
+    TestViewController *testViewController = [TestViewController testVC];
+    [self.navigationController pushViewController:testViewController animated:YES];
+}
+
 
 @end

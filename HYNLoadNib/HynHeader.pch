@@ -1,0 +1,16 @@
+//
+//  HynHeader.pch
+//  HYNLoadNib
+//
+//  Created by Huang Yanan on 16/8/16.
+//  Copyright © 2016年 Huang Yanan. All rights reserved.
+//
+
+#ifndef HynHeader_pch
+#define HynHeader_pch
+
+#import "NSObject+HynClassName.h"
+#import "UIView+HynLoadNib.h"
+#import "UIViewController+HynLoadNib.h"
+
+#endif /* HynHeader_pch */

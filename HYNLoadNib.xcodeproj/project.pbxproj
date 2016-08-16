@@ -11,9 +11,18 @@
 		9AAEE8921D62E4FF00D55A5A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AAEE8911D62E4FF00D55A5A /* AppDelegate.m */; };
 		9AAEE8951D62E4FF00D55A5A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AAEE8941D62E4FF00D55A5A /* ViewController.m */; };
 		9AAEE8981D62E4FF00D55A5A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AAEE8961D62E4FF00D55A5A /* Main.storyboard */; };
-		9AAEE89B1D62E4FF00D55A5A /* HYNLoadNib.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9AAEE8991D62E4FF00D55A5A /* HYNLoadNib.xcdatamodeld */; };
 		9AAEE89D1D62E4FF00D55A5A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9AAEE89C1D62E4FF00D55A5A /* Assets.xcassets */; };
 		9AAEE8A01D62E4FF00D55A5A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AAEE89E1D62E4FF00D55A5A /* LaunchScreen.storyboard */; };
+		9AAEE8AA1D62E58600D55A5A /* UIView+HynLoadNib.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AAEE8A91D62E58600D55A5A /* UIView+HynLoadNib.m */; };
+		9AAEE8AD1D62E61400D55A5A /* NSObject+HynClassName.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AAEE8AC1D62E61400D55A5A /* NSObject+HynClassName.m */; };
+		9AAEE8B11D62E78500D55A5A /* TestTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AAEE8AF1D62E78500D55A5A /* TestTableViewController.m */; };
+		9AAEE8B21D62E78500D55A5A /* TestTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9AAEE8B01D62E78500D55A5A /* TestTableViewController.xib */; };
+		9AAEE8B51D62E84B00D55A5A /* UIViewController+HynLoadNib.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AAEE8B41D62E84B00D55A5A /* UIViewController+HynLoadNib.m */; };
+		9AAEE8B81D62EB9600D55A5A /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AAEE8B71D62EB9600D55A5A /* TestViewController.m */; };
+		9AAEE8BF1D63073200D55A5A /* TestTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AAEE8BD1D63073200D55A5A /* TestTableViewCell.m */; };
+		9AAEE8C01D63073200D55A5A /* TestTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9AAEE8BE1D63073200D55A5A /* TestTableViewCell.xib */; };
+		9AAEE8C21D6308D800D55A5A /* TestView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9AAEE8C11D6308D800D55A5A /* TestView.xib */; };
+		9AAEE8C51D63092D00D55A5A /* TestView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AAEE8C41D63092D00D55A5A /* TestView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,10 +33,27 @@
 		9AAEE8931D62E4FF00D55A5A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		9AAEE8941D62E4FF00D55A5A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		9AAEE8971D62E4FF00D55A5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		9AAEE89A1D62E4FF00D55A5A /* HYNLoadNib.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HYNLoadNib.xcdatamodel; sourceTree = "<group>"; };
 		9AAEE89C1D62E4FF00D55A5A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9AAEE89F1D62E4FF00D55A5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9AAEE8A11D62E4FF00D55A5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9AAEE8A81D62E58600D55A5A /* UIView+HynLoadNib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+HynLoadNib.h"; sourceTree = "<group>"; };
+		9AAEE8A91D62E58600D55A5A /* UIView+HynLoadNib.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+HynLoadNib.m"; sourceTree = "<group>"; };
+		9AAEE8AB1D62E61400D55A5A /* NSObject+HynClassName.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+HynClassName.h"; sourceTree = "<group>"; };
+		9AAEE8AC1D62E61400D55A5A /* NSObject+HynClassName.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+HynClassName.m"; sourceTree = "<group>"; };
+		9AAEE8AE1D62E78500D55A5A /* TestTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestTableViewController.h; sourceTree = "<group>"; };
+		9AAEE8AF1D62E78500D55A5A /* TestTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestTableViewController.m; sourceTree = "<group>"; };
+		9AAEE8B01D62E78500D55A5A /* TestTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TestTableViewController.xib; sourceTree = "<group>"; };
+		9AAEE8B31D62E84B00D55A5A /* UIViewController+HynLoadNib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+HynLoadNib.h"; sourceTree = "<group>"; };
+		9AAEE8B41D62E84B00D55A5A /* UIViewController+HynLoadNib.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+HynLoadNib.m"; sourceTree = "<group>"; };
+		9AAEE8B61D62EB9600D55A5A /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		9AAEE8B71D62EB9600D55A5A /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
+		9AAEE8BB1D62ECDC00D55A5A /* HynHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HynHeader.pch; sourceTree = "<group>"; };
+		9AAEE8BC1D63073200D55A5A /* TestTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestTableViewCell.h; sourceTree = "<group>"; };
+		9AAEE8BD1D63073200D55A5A /* TestTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestTableViewCell.m; sourceTree = "<group>"; };
+		9AAEE8BE1D63073200D55A5A /* TestTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TestTableViewCell.xib; sourceTree = "<group>"; };
+		9AAEE8C11D6308D800D55A5A /* TestView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TestView.xib; sourceTree = "<group>"; };
+		9AAEE8C31D63092D00D55A5A /* TestView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestView.h; sourceTree = "<group>"; };
+		9AAEE8C41D63092D00D55A5A /* TestView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,15 +86,26 @@
 		9AAEE88C1D62E4FF00D55A5A /* HYNLoadNib */ = {
 			isa = PBXGroup;
 			children = (
+				9AAEE8A71D62E51E00D55A5A /* loadNib */,
 				9AAEE8901D62E4FF00D55A5A /* AppDelegate.h */,
 				9AAEE8911D62E4FF00D55A5A /* AppDelegate.m */,
 				9AAEE8931D62E4FF00D55A5A /* ViewController.h */,
 				9AAEE8941D62E4FF00D55A5A /* ViewController.m */,
+				9AAEE8B61D62EB9600D55A5A /* TestViewController.h */,
+				9AAEE8B71D62EB9600D55A5A /* TestViewController.m */,
+				9AAEE8AE1D62E78500D55A5A /* TestTableViewController.h */,
+				9AAEE8AF1D62E78500D55A5A /* TestTableViewController.m */,
+				9AAEE8B01D62E78500D55A5A /* TestTableViewController.xib */,
+				9AAEE8BC1D63073200D55A5A /* TestTableViewCell.h */,
+				9AAEE8BD1D63073200D55A5A /* TestTableViewCell.m */,
+				9AAEE8BE1D63073200D55A5A /* TestTableViewCell.xib */,
+				9AAEE8C11D6308D800D55A5A /* TestView.xib */,
+				9AAEE8C31D63092D00D55A5A /* TestView.h */,
+				9AAEE8C41D63092D00D55A5A /* TestView.m */,
 				9AAEE8961D62E4FF00D55A5A /* Main.storyboard */,
 				9AAEE89C1D62E4FF00D55A5A /* Assets.xcassets */,
 				9AAEE89E1D62E4FF00D55A5A /* LaunchScreen.storyboard */,
 				9AAEE8A11D62E4FF00D55A5A /* Info.plist */,
-				9AAEE8991D62E4FF00D55A5A /* HYNLoadNib.xcdatamodeld */,
 				9AAEE88D1D62E4FF00D55A5A /* Supporting Files */,
 			);
 			path = HYNLoadNib;
@@ -78,8 +115,22 @@
 			isa = PBXGroup;
 			children = (
 				9AAEE88E1D62E4FF00D55A5A /* main.m */,
+				9AAEE8BB1D62ECDC00D55A5A /* HynHeader.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9AAEE8A71D62E51E00D55A5A /* loadNib */ = {
+			isa = PBXGroup;
+			children = (
+				9AAEE8A81D62E58600D55A5A /* UIView+HynLoadNib.h */,
+				9AAEE8A91D62E58600D55A5A /* UIView+HynLoadNib.m */,
+				9AAEE8AB1D62E61400D55A5A /* NSObject+HynClassName.h */,
+				9AAEE8AC1D62E61400D55A5A /* NSObject+HynClassName.m */,
+				9AAEE8B31D62E84B00D55A5A /* UIViewController+HynLoadNib.h */,
+				9AAEE8B41D62E84B00D55A5A /* UIViewController+HynLoadNib.m */,
+			);
+			path = loadNib;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,9 +190,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9AAEE8C21D6308D800D55A5A /* TestView.xib in Resources */,
 				9AAEE8A01D62E4FF00D55A5A /* LaunchScreen.storyboard in Resources */,
 				9AAEE89D1D62E4FF00D55A5A /* Assets.xcassets in Resources */,
 				9AAEE8981D62E4FF00D55A5A /* Main.storyboard in Resources */,
+				9AAEE8C01D63073200D55A5A /* TestTableViewCell.xib in Resources */,
+				9AAEE8B21D62E78500D55A5A /* TestTableViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -154,8 +208,14 @@
 			files = (
 				9AAEE8951D62E4FF00D55A5A /* ViewController.m in Sources */,
 				9AAEE8921D62E4FF00D55A5A /* AppDelegate.m in Sources */,
+				9AAEE8C51D63092D00D55A5A /* TestView.m in Sources */,
+				9AAEE8AD1D62E61400D55A5A /* NSObject+HynClassName.m in Sources */,
+				9AAEE8B11D62E78500D55A5A /* TestTableViewController.m in Sources */,
+				9AAEE8B51D62E84B00D55A5A /* UIViewController+HynLoadNib.m in Sources */,
+				9AAEE8AA1D62E58600D55A5A /* UIView+HynLoadNib.m in Sources */,
+				9AAEE8B81D62EB9600D55A5A /* TestViewController.m in Sources */,
+				9AAEE8BF1D63073200D55A5A /* TestTableViewCell.m in Sources */,
 				9AAEE88F1D62E4FF00D55A5A /* main.m in Sources */,
-				9AAEE89B1D62E4FF00D55A5A /* HYNLoadNib.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,6 +327,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/HYNLoadNib/HynHeader.pch";
 				INFOPLIST_FILE = HYNLoadNib/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zhuanche01.HYNLoadNib;
@@ -278,6 +339,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/HYNLoadNib/HynHeader.pch";
 				INFOPLIST_FILE = HYNLoadNib/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zhuanche01.HYNLoadNib;
@@ -304,21 +366,9 @@
 				9AAEE8A61D62E4FF00D55A5A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		9AAEE8991D62E4FF00D55A5A /* HYNLoadNib.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				9AAEE89A1D62E4FF00D55A5A /* HYNLoadNib.xcdatamodel */,
-			);
-			currentVersion = 9AAEE89A1D62E4FF00D55A5A /* HYNLoadNib.xcdatamodel */;
-			path = HYNLoadNib.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = 9AAEE8821D62E4FF00D55A5A /* Project object */;
 }
